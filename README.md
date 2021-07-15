@@ -29,4 +29,5 @@ Experimental data used for the optimization is in the “Error_file” (see line
 
 To run the example(saline): Run “run_this.m” file with other supporting functions in the same directory. And use the data from the workspace to plot the distributions or curves as needed. 
 
+### Plotting scripts
 scripts used to generate the plots as shown in the paper is included in "histogramstack_plotter.m"(for generating histograms) and "familyofcurves_plotter.m"(to generate family of curves with experimental data overlayed). To get figures exactly like in the paper, manually edit the aesthetics, in the matlab plot window using "inspect element" option. 
