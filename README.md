@@ -1,6 +1,6 @@
 MATLAB codes to fit the percentage neutrophil data, from various compartments at different timepoints, using iABC algorithm.
 
-Model equations are coded in the file ìmarrowwithdelay.mî
+Model equations are coded in the file ‚Äúmarrowwithdelay.m‚Äù
 
 
 iABC_mice: iABC algorithm to iteratively improve parameter value
@@ -18,15 +18,15 @@ initial guess: input the lower and upper bounds for parameter values
 
 #### Data specific
 
-calc_error: used to pass current parameter combinations to ìError_fileî
+calc_error: used to pass current parameter combinations to ‚ÄúError_file‚Äù
 
 ### File to run - users need to specify iABC options
 
 run_this: executes the iABC_mice by passing iABC algorithm options. 
 
-Experimental data used for the optimization is in the ìError_fileî (see line 6).
+Experimental data used for the optimization is in the ‚ÄúError_file‚Äù (see line 6).
 
 
-To run the example(saline): Run ìrun_this.mî file with other supporting functions in the same directory. And use the data from the workspace to plot the distributions or curves as needed. 
+To run the example(saline): Run ‚Äúrun_this.m‚Äù file with other supporting functions in the same directory. And use the data from the workspace to plot the distributions or curves as needed. 
 
-
+scripts used to generate the plots as shown in the paper is included in "histogramstack_plotter.m"(for generating histograms) and "familyofcurves_plotter.m"(to generate family of curves with experimental data overlayed). To get figures exactly like in the paper, manually edit the aesthetics, in the matlab plot window using "inspect element" option. 
